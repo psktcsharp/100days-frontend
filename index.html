@@ -1,0 +1,63 @@
+<html>
+<head>
+    <style>
+        .grid-cont{
+            display: grid;
+            grid-template-columns: auto  ;
+            background-color: white;
+            padding: 10px;
+        }
+        .notes-grid{
+            display: grid;
+            grid-template-columns: auto auto auto auto ;
+            background-color: white;
+            padding: 5px;
+
+        }
+        .notes-item{
+            background-color: white;
+            padding: 5px;
+            text-align: center;
+            border: 5px solid black;
+            padding: 10px;
+            height: 125px;
+        }
+        .search{
+            background-color: white;
+            border: 2px solid black;
+            padding: 10px;
+            margin-bottom: 5px;
+            font-size: medium;
+            text-align: center;
+        }
+        .noteslist{
+            background-color: white;
+            border: 1px solid black;
+            padding: 10px;
+            margin-bottom: 15px;
+            font-size: medium;
+            text-align: center;
+        }
+        .content{
+            background-color: white;
+            border: 2px solid black;
+            padding: 10px;
+            height: 250;
+            font-size: medium;
+            text-align: center;
+        }
+    </style>
+    <body>
+        <div class="grid-cont">
+            <div class="search">search</div>
+            <div class="notes-grid">
+                <div class="notes-item">note 1</div>
+                <div class="notes-item">note 2</div>
+                <div class="notes-item">note 3</div>
+              <button>More</button>
+            </div>
+            <div class="content">content</div>
+        </div>
+    </body>
+</head>
+</html>
