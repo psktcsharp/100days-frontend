@@ -23,7 +23,50 @@
         background-color: gray;
         }
     </style>
+
     <body>
+
+     <!-- Pop up -->
+     <div class="modal fade" id="editNoteModal" tabindex="-1"  aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <div class="modal-body">
+            <div class="input-group">
+              <textarea class="form-control" aria-label="With textarea">example note 1.</textarea>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="editNoteModal2" tabindex="-1"  aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <div class="modal-body">
+            <div class="input-group">
+              <textarea class="form-control" aria-label="With textarea">example note 2.</textarea>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="editNoteModal3" tabindex="-1"  aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <div class="modal-body">
+            <div class="input-group">
+              <textarea class="form-control" aria-label="With textarea">example note 3.</textarea>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+     <!-- end pop up -->
 
         
      
@@ -49,7 +92,7 @@
                         <div class="card-body">
                           <p class="card title" style="border: transparent;" ><button style="width: 35px;background: transparent;"><img height="15px" width="15px" src="delete.png"/></button></p>
 
-                          <p class="card-text">example note 1.</p>
+                          <p class="card-text" data-bs-toggle="modal" data-bs-target="#editNoteModal">example note 1.</p>
                         </div>
                       </div>
                   </div>
@@ -58,7 +101,7 @@
                         <div class="card-body">
                           <p class="card title" style="border: transparent;" ><button style="width: 35px;background: transparent;"><img height="15px" width="15px" src="delete.png"/>
                             </button></p>
-                          <p class="card-text">example note 2.</p>
+                          <p class="card-text" data-bs-toggle="modal" data-bs-target="#editNoteModal2">example note 2.</p>
                         </div>
                       </div>
                   </div>
@@ -66,7 +109,7 @@
                     <div class="card" style="width: 18rem;height: 150px;">
                         <div class="card-body">
                           <p class="card title" style="border: transparent;" ><button style="width: 35px;background: transparent;"><img height="15px" width="15px" src="delete.png"/></button></p>
-                          <p class="card-text">example note 3.</p>
+                          <p class="card-text"  data-bs-toggle="modal" data-bs-target="#editNoteModal3">example note 3.</p>
                         </div>
                       </div>
                       
